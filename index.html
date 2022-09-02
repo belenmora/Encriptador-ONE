@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img src="Imagenes/Diamante.png" alt="Logo diamante" class="diamante">
+            <h1>ENCRIPTADOR DE MENSAJES</h1>
+        </header>
+        <main>
+            <section>
+                <textarea class="input-texto" cols="35" rows="6" placeholder="Ingrese aquí su mensaje..."></textarea> 
+                <div class="alerta">
+                    <img src="Imagenes/!.png" alt="Logo alerta">
+                    <p class="condiciones"> Solo letras minúsculas y sin tildes.</p>
+                </div>
+                <div class="botones"> 
+                    <button class="encriptar" onclick="btnEncriptar()"> Encriptar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()"> Desencriptar
+                    </button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="18" rows="8"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p>Hecho con 💜 por Belen Mora <a href="https://www.linkedin.com/in/belen-antonella-mora-112552187/"><img src="Imagenes/LinkedIn.png" alt="Logo LinkedIn" class="imagen-linkedin"></a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
