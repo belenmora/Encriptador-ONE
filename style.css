@@ -1,0 +1,247 @@
+.diamante{
+    width: 8em;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+h1{
+    position: absolute;
+    top: 1em;
+    left: 7em;
+    font-family: 'Poiret One', cursive;
+}
+
+body{
+    background:#EDDCF4;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.input-texto{
+    font-size: 32px;
+    font-family: inter;
+    outline: none !important;
+    border: #EDDCF4;
+    background: #EDDCF4;
+    position: relative;
+    margin: 1em auto;
+    width: 75%;
+    resize: none;
+    height: 85%;
+    padding-left: 3em;
+}
+
+.alerta{
+    position: relative;
+    margin-left: 10%;
+    padding-top: 1em;
+}
+
+.condiciones{
+    display: inline;
+    position: relative;
+}
+
+.botones{
+    width: 70%;
+    display: flex;
+    position: absolute;
+    left: 8%;
+    margin-top: 2%;
+    padding-right: 2em;
+}
+
+.encriptar{
+    width: 15em;
+    height: 4em;
+    border-radius: 24px;
+    background-color: #B41A74;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-right: 2em;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background: #661042 ;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    width: 15em;
+    height: 4em;
+    border-radius: 24px;
+    border-style: solid;
+    background-color: #dfbdd4;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #B41A74;
+    color: #B41A74;
+    margin-right: auto;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: #da96c4 ;
+    transform: scale(1.1);
+}
+
+.mensaje{
+    width: 28%;
+    height: 80%;
+    border-radius: 28px;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    margin-left: 2em;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position:3em 6em;
+    background-size: 70%;
+    text-align: justify;
+    font-size: 24px;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.copiar{
+    width: 8em;
+    height: 3em;
+    position: absolute;
+    top: 35em;
+    right: 15%;
+    border-radius: 24px;
+    border-style: solid;
+    background-color: #EFCFE2;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #B41A74;
+    color: #B41A74;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10.5em;
+}
+
+.imagen-linkedin{
+    width: 1em;
+    position: relative;
+    top: 0.1em;
+}
+
+@media screen and (max-width:480px){
+    header{
+        background: linear-gradient(#d85ea5, #EDDCF4);
+    }
+    
+    body{
+        width: auto;
+        position: relative;
+    }
+
+    .diamante{
+       width: 25%; 
+       position: relative;
+       margin-left: 30%;
+       padding-top: 0.5em;
+    }
+
+    h1{
+        position: static;
+        text-align: center; 
+        margin-left: 0.5em;
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+
+    main{
+        display:inline-block;
+        width: 90%;
+        position:relative
+    }
+
+    .input-texto{
+        background: white;
+        width: 95%;
+        margin-left: 7%;
+        text-align: left;
+        padding-left: 0.5em;
+        margin-bottom: auto;
+        border-radius: 20px;
+        font-size: 20px;
+        padding-top: 10px;
+        height: 100px;
+    }
+
+    .alerta{
+        position: relative;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .condiciones{
+        font-size: 14px;
+    }
+
+    .botones{
+        width: 95%;
+        position: relative;
+        margin-bottom: 0em;
+    }
+
+    .encriptar{
+        font-size: 14px;
+        height: 3em;
+    }
+
+    .desencriptar{
+        font-size: 14px;
+        height: 3em;
+    }
+
+    .mensaje{
+        position: relative;
+        width: 83%;
+        height: 100px;
+        margin-left: 21%;
+        background-size: 120px;
+        background-position: center;
+        border: none;
+        top: 1em;
+    }
+
+    .copiar{
+        width: 50%;
+        position: relative;
+        top: 2.5em;
+        left: 30%;
+        font-size: 14px;
+    }
+
+    footer{
+        margin-top: 5.5em;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
